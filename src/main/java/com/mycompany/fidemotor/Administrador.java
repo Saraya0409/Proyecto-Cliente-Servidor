@@ -12,5 +12,8 @@ import java.util.Date;
  */
 public class Administrador extends Persona {
 
-    
+    public Administrador(String nombre, String apellido, int identificacion, int numeroTelefono, String password, String direccion, char sexo, Date fechaNacimiento) {
+        super(nombre, apellido, identificacion, numeroTelefono, password, direccion, sexo, fechaNacimiento);
+    }
+
 }
